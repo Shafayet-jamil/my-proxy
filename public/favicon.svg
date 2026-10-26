@@ -1,13 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a5b4fc"/>
-      <stop offset="100%" stop-color="#4338ca"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#4F46E5"/>
     </linearGradient>
   </defs>
-  <rect width="100" height="100" rx="22" fill="url(#g)"/>
-  <!-- MP monogram -->
-  <text x="50" y="62" font-size="38" font-weight="800" fill="white" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" letter-spacing="-2" opacity="0.95">MP</text>
-  <!-- Subtle underline accent -->
-  <rect x="25" y="70" width="50" height="2.5" rx="1.25" fill="white" opacity="0.4"/>
+  <rect width="512" height="512" rx="102" fill="url(#bg)"/>
+  <path d="M 120 360 L 120 160 L 256 280 L 392 160 L 392 360"
+        fill="none" stroke="#FFFFFF" stroke-width="42"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 256 280 L 256 400" fill="none" stroke="#FFFFFF"
+        stroke-width="32" stroke-linecap="round"/>
+  <circle cx="256" cy="420" r="22" fill="#FFFFFF"/>
 </svg>
